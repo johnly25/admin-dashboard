@@ -1,0 +1,28 @@
+body {
+    padding: 0;
+    margin:0;
+    font-family: "Roboto";
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 1fr;
+    height:100vh;
+    width:100vw;
+}
+
+.sidebar {
+    background-color: #b19cd9;
+    display: grid;
+    grid-auto-rows: min-content;
+    gap: 50px; 
+    justify-content: center;
+    color:white;
+}
+
+.sidebar ul {
+    text-decoration: none;
+    list-style: none;
+    margin:0;
+    padding:0;
+}
