@@ -1,59 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Admin Dashboard</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-<div class="container">
-    <div class="sidebar">
-        <div>Dashboard</div>
-        <ul class="main-menu">
-            <li>Home</li>
-            <li>Profile</li>
-            <li>Messages</li>
-            <li>History</li>
-            <li>Task</li>
-            <li>Communities</li>
-        </ul>
-        <ul class="sub-menu">
-            <li>Setting</li>
-            <li>Support</li>
-            <li>Privacy</li>
-        </ul>
-    </div>
-    <div class="header">
-        <div class="search-icon"></div>
-        <form action="">
-            <label for="search"></label>
-            <input type="text" id="search" name="search">
-        </form>
-        <div class="alert"></div>
-        <div class="icon"></div>
-        <div class="name">Morgan Oakley</div>
 
-        <div class="icon"></div>
-        <div class="greeting">Hi there, Morgan Oakly (@morgan)</div>
-        <button class="btn">New</button>
-        <button class="btn">Upload</button>
-        <button class="btn">Share</button>
-    </div>
-    <div class="main-content">
-        <div class="projects">
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
-            <div class="grid-item"></div>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo"><img src="./icons/landscape-placeholder.svg">Dashboard</div>
+            <div class="main-menu">
+                <div class="grid-item"><img src="./icons/home.svg" alt="home">Home</div>
+                <div class="grid-item"><img src="./icons/card-account-details-outline.svg" alt="Profile">Profile</div>
+                <div class="grid-item"><img src="./icons/message.svg" alt="Messages">Messages</div>
+                <div class="grid-item"><img src="./icons/clock-time-three-outline.svg" alt="History">History</div>
+                <div class="grid-item"><img src="./icons/note-multiple-outline.svg" alt="Task">Task</div>
+                <div class="grid-item"><img src="./icons/account-group.svg" alt="Communities">Communities</div>
+            </div>
+            <div class="sub-menu">
+                <div class="grid-item"><img src="./icons/cog.svg" alt="Setting">Setting</div>
+                <div class="grid-item"><img src="./icons/help-box.svg" alt="Support">Support</div>
+                <div class="grid-item"><img src="./icons/shield-check.svg" alt="Privacy">Privacy</div>
+            </div>
         </div>
-        <div class="announcements">
-            <div class="grid-items"></div>
-            <div class="grid-items"></div>
+        <div class="header">
+            <div class="section">
+                <div class="section-1">
+                    <img src="./icons/magnify.svg" alt="search" class="search">
+                    <form action="">
+                        <label for="search"></label>
+                        <input type="text" id="search" name="search">
+                    </form>
+                </div>
+                <div class="section-2">
+                    <img src="./icons/bell-ring.svg" alt="alert" class="alert">
+                    <img src="./icons/landscape-placeholder.svg" class="placeholder">
+                    <div class="name">Morgan Oakley</div>
+                </div>
+            </div>
+            <div class="section-3">
+                <div class="left">
+                    <img src="./icons/landscape-placeholder.svg" class="placeholder">
+                    <div class="greeting">Hi there,<br> Morgan Oakly (@morgan)</div>
+                </div>
+                <div class="right">
+                    <div><button class="btn">New</button></div>
+                    <div><button class="btn">Upload</button></div>
+                    <div><button class="btn">Share</button></div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="main-section">
+                    <div>Your Projects</div>
+                    <div class="projects">
+                        <div class="grid-item">
+                            <div class="heading">Language Quiz App</div>
+                            <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro
+                                enim quos ratione quasi, excepturi quaerat perferendis fugiat
+                                temporibus laboriosam nam animi</div>
+                            <div class="icons">
+                                <img src="./icons/star-plus-outline.svg" alt="star">
+                                <img src="./icons/eye-plus-outline.svg" alt="eye">
+                                <img src="./icons/share-variant-outline.svg" alt="share">
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="heading">Impossible App</div>
+                            <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro
+                                enim quos ratione quasi, excepturi quaerat perferendis fugiat
+                                temporibus laboriosam nam animi</div>
+                            <div class="icons">
+                                <img src="./icons/star-plus-outline.svg" alt="star">
+                                <img src="./icons/eye-plus-outline.svg" alt="eye">
+                                <img src="./icons/share-variant-outline.svg" alt="share">
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="heading">Possible App</div>
+                            <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro
+                                enim quos ratione quasi, excepturi quaerat perferendis fugiat
+                                temporibus laboriosam nam animi</div>
+                            <div class="icons">
+                                <img src="./icons/star-plus-outline.svg" alt="star">
+                                <img src="./icons/eye-plus-outline.svg" alt="eye">
+                                <img src="./icons/share-variant-outline.svg" alt="share">
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="heading">Friend Finder App</div>
+                            <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro
+                                enim quos ratione quasi, excepturi quaerat perferendis fugiat
+                                temporibus laboriosam nam animi</div>
+                            <div class="icons">
+                                <img src="./icons/star-plus-outline.svg" alt="star">
+                                <img src="./icons/eye-plus-outline.svg" alt="eye">
+                                <img src="./icons/share-variant-outline.svg" alt="share">
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="heading">Naruto App</div>
+                            <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro
+                                enim quos ratione quasi, excepturi quaerat perferendis fugiat
+                                temporibus laboriosam nam animi</div>
+                            <div class="icons">
+                                <img src="./icons/star-plus-outline.svg" alt="star">
+                                <img src="./icons/eye-plus-outline.svg" alt="eye">
+                                <img src="./icons/share-variant-outline.svg" alt="share">
+                            </div>
+                        </div>
+                        <div class="grid-item">
+                            <div class="heading">Game App</div>
+                            <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro
+                                enim quos ratione quasi, excepturi quaerat perferendis fugiat
+                                temporibus laboriosam nam animi</div>
+                            <div class="icons">
+                                <img src="./icons/star-plus-outline.svg" alt="star">
+                                <img src="./icons/eye-plus-outline.svg" alt="eye">
+                                <img src="./icons/share-variant-outline.svg" alt="share">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-section">
+                    <div class="sub-section-1">
+                        <div>
+                            <div>Announcements</div>
+                            <div class="grid-item">
+                                <div>Heading</div>
+                                <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto, temporibus. Tempore repellat magnam accusamus dolore commodi nisi omnis officia eligendi?</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-section-1">
+                        <div class="trending-section">
+                            <div>Trending</div>
+                            <div class="grid-item">Hello</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
+
     </div>
-</div>
 </body>
+
 </html>
